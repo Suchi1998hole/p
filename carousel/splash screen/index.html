@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="intro">
+        <h1 class="hey-header">
+            <span class="hey">H</span><span class="hey">e</span><span class="hey">y</span><span class="hey">y</span>
+        </h1>
+    </div>
+    <div id="container">
+
+    <header>
+        <h4>Heyyy Prathamesh</h4>
+        
+<div class="staticheycontainer">
+  <h2 class="title">
+    <span class="title-word title-word-1">Happy</span>
+    <span class="title-word title-word-2">Birthday</span>
+    <span class="title-word title-word-3">!</span>
+    <span class="title-word title-word-4">!</span>
+  </h2>
+</div>
+    </header>
+    <!-- <div class="hisimg">
+        <img src="image2.avif" alt="Avatar" width="auto" height="20%">
+    </div> -->
+        <span id="text1"></span>
+        <span id="text2"></span>
+    </div>
+    <br>
+    <svg id="filters">
+        <defs>
+            <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 255 -140" />
+            </filter>
+        </defs>
+    </svg>
+    <script src=app.js></script>
+    <!-- ********************* -->
+    <div class="navigation">
+    
+        <div class="toggle">
+            <span></span>
+        </div>
+        
+        <ul>
+            <li style="--i:0;"><a href="../navbar/index.html">Welcome</a></li>
+            <li style="--i:1;"><a href="#">Home</a></li>
+            <li style="--i:2;"><a href="../index.html">Photos</a></li>
+            <li style="--i:3;"><a href="../message/index.html">Messages</a></li>
+            <li class="navli" style="--i:4;"><a href="../about me/index.html">About Me</a></li>
+            
+        </ul>
+    
+    </div>
+    <script>
+        let navigation = document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function()
+        {
+            this.classList.toggle('active');
+            navigation.classList.toggle('active');
+
+        }
+    </script>
+
+</body>
+</html>

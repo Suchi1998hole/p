@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="semi-container">
+    <div class="waviy">
+        <span style="--i:1">E</span>
+        <span style="--i:2">x</span>
+        <span style="--i:3">p</span>
+        <span style="--i:4">l</span>
+        <span style="--i:5">o</span>
+        <span style="--i:6">r</span>
+        <span style="--i:7">e &nbsp;</span>
+
+       </div>
+       
+       <div class="waviy">
+        <span style="--i:1">M</span>
+        <span style="--i:2">E</span>
+       </div>
+
+      
+    </div> 
+    <!-- <h4>Hey there!
+        We have a fantastic surprise waiting for you.</h4> -->
+    <div class="navigation">
+    
+        <div class="toggle">
+            <span></span>
+        </div>
+        
+        <ul>
+            <li style="--i:0;"><a href="#">Welcome</a></li>
+            <li style="--i:0;"><a href="../splash screen/index.html">Home</a></li>
+            <li style="--i:1;"><a href="../index.html">Photos</a></li>
+            <li style="--i:2;"><a href="../message/index.html">Messages</a></li>
+            <li class="navli" style="--i:4;"><a href="../about me/index.html">About Me</a></li>
+            
+        </ul>
+    
+    </div>
+    <script>
+        let navigation = document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function()
+        {
+            this.classList.toggle('active');
+            navigation.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>
